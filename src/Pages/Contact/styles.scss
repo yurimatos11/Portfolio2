@@ -1,5 +1,13 @@
-h1{
-    color: #fff;
-    display: flex;
-    justify-content: center;
+.contactBody{
+    .contactWave{
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .contactBody{
+        .contactWave{
+            display: block;
+        }
+    }
 }

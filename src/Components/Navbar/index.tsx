@@ -1,5 +1,5 @@
 import React , {useEffect} from 'react'
-import './styles.scss';
+import '../Navbar/styles.scss';
 
 import Logo from '../../assets/img/gitYuri1.svg';
 import Wave from '../../assets/img/wave1.svg';
@@ -78,7 +78,7 @@ const Navbar = () => {
               </a>
             </li>
         </ul>     
-        <img src={Wave} alt="" />
+        <img className="wave" src={Wave} alt="" />
       </div>
   </nav>
   )

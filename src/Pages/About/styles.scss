@@ -1,5 +1,13 @@
-h1{
-    color: #fff;
-    display: flex;
-    justify-content: center;
+.aboutBody{
+    .aboutWave{
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .aboutBody{
+        .aboutWave{
+            display: block;
+        }
+    }
 }

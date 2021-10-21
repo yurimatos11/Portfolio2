@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.scss';
+import '../About/styles.scss';
 
 import Wave from '../../assets/img/wave1.svg';
 
@@ -7,8 +7,9 @@ import Wave from '../../assets/img/wave1.svg';
 const About = () => {
   return (
     <>
-      <img src={Wave} alt="wave" />
-      <h1>Ana</h1>
+      <div className="aboutBody">
+        <img className="aboutWave" src={Wave} alt="wave" />
+      </div>
     </>
   )
 }

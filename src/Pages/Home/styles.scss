@@ -1,5 +1,14 @@
-h1{
-    color: #fff;
-    display: flex;
-    justify-content: center;
+.homeBody{
+    .homeWave{
+        display: none;
+    }
+}
+
+
+@media (min-width: 991px) {
+    .homeBody{
+        .homeWave{
+            display: block;
+        }
+    }
 }
