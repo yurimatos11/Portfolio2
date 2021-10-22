@@ -8,6 +8,8 @@ const Home = () => {
     <>
       <div className="homeBody">
         <img className="homeWave" src={Wave} alt="wave" />
+        <div className="content">
+        </div>
       </div>
     </>
     

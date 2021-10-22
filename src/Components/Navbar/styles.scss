@@ -1,5 +1,5 @@
 .navbar{
-  background-color: #fff;
+  background-color: #272727;
   padding: 0;
   display: flex;
   border-bottom: 0px solid transparent;
@@ -21,6 +21,7 @@
   }
   }
   #navbarSupportedContent{
+    margin-top: -1px;
     .wave{
       margin-top: -3px;
     }
