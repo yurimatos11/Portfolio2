@@ -9,6 +9,7 @@ const Home = () => {
       <div className="homeBody">
         <img className="homeWave" src={Wave} alt="wave" />
         <div className="content">
+          <h1>ola</h1>
         </div>
       </div>
     </>

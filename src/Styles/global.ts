@@ -13,7 +13,9 @@ export default createGlobalStyle`
 }
 
 body{
-    background-color: #272727;
+    background-color: #8E05C2;
+    color: #000;
+    list-style: none;
 }
     
 button { 

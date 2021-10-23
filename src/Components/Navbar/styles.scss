@@ -1,5 +1,5 @@
 .navbar{
-  background-color: #272727;
+  background-color: #8E05C2;
   padding: 0;
   display: flex;
   border-bottom: 0px solid transparent;
@@ -7,11 +7,11 @@
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    border-bottom: #29e6c6 solid 2px;
+    border-bottom: #000 solid 9px;
   .fas{
     font-size: 1.5rem;
     margin-right: 0;
-    color: #29e6c6;
+    color: #000;
   }  
   .logo{
     padding: 1rem;
@@ -30,13 +30,13 @@
     padding: .8rem;
     margin: 0px;
     align-items: flex-end;
-    background-color: #29e6c6;
+    background-color: #000;
   }
   #navbarSupportedContent li {
     list-style-type: none;
   }
   #navbarSupportedContent ul li a {
-    color: #000;
+    color: #8E05C2;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.6rem;
@@ -46,12 +46,12 @@
 
 @media (min-width: 991px) {
   .navbar {
-    border-bottom: #29e6c6 1px solid;
+    border-bottom: #000 1px solid;
     .header{
       border-bottom: transparent;
       .logo {
         font-size: 25px;
-        color: #29e6c6;
+        color: #000;
         font-weight: bold;
       }
     }
@@ -70,7 +70,7 @@
       list-style-type: none;
     }
     #navbarSupportedContent ul li a {
-      color: #29e6c6;
+      color: #000;
       font-weight: bold;
       text-decoration: none;
       font-size: 20px;

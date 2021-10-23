@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+//import { BrowserRouter } from 'react-router-dom';
 import Routes from './Routes/Index';
 import Header from './Components/Header';
 import GlobalStyles from './Styles/global';
@@ -7,9 +7,7 @@ import GlobalStyles from './Styles/global';
 const App = () => (
     <>
       <Header />
-      <BrowserRouter>
-        <Routes />
-      </BrowserRouter>
+      <Routes />
       <GlobalStyles />
     </>
 );

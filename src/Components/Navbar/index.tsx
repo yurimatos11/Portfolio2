@@ -68,11 +68,6 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="About" className="nav-link">
-                ABOUT
-              </a> 
-            </li>
-            <li className="nav-item">
               <a href="Contact" className="nav-link">
                 CONTACT
               </a>
