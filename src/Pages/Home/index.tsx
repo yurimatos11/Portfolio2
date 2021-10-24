@@ -34,7 +34,7 @@ const Home = () => {
         <div className="content">
           <h1 className="text">Olá! Me chamo Yuri, este é meu segundo Portfólio, onde de forma simples e pratica mostrarei algumas das tecnologias que conheço!</h1>
         </div>
-        <div className="logos">
+        <div className="card1">
           <img src={Bootstrap} alt="Bootstrap" />
           <img src={Brave} alt="Brave" />
           <img src={Chrome} alt="Chrome" />
