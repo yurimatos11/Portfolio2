@@ -12,14 +12,21 @@
         }
     }
     .card1{
-        display: grid;
-        grid-template-columns: 80px 80px 80px 80px;
-        align-items: center;
-        justify-content: center;
-        border-radius: 1rem;
-        img{
-            width: 3rem;
+       display: flex;
+       justify-content: center;
+        .imgContent{
+            border-radius: 0 0 2rem 2rem;
+            padding: .5rem;
+            background-color: #ccc;
+            align-items: center;
+            display: grid;
+            grid-template-columns: 80px 80px 80px 80px;
+            img{
+                margin-left: 1rem;
+                width: 3rem;
+            }
         }
+       
     }
 }
 

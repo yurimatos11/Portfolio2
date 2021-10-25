@@ -13,8 +13,8 @@ export default createGlobalStyle`
 }
 
 body{
-    background-color: #8E05C2;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     list-style: none;
 }
     

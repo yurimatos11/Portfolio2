@@ -1,17 +1,16 @@
 .navbar{
-  background-color: #8E05C2;
+  background-color: #000;
   padding: 0;
   display: flex;
-  border-bottom: 0px solid transparent;
   .header{
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    border-bottom: #000 solid 4px;
+    border-bottom: #00ffff solid 3px;
   .fas{
     font-size: 1.5rem;
     margin-right: 0;
-    color: #000;
+    color: #00ffff;
   }  
   .logo{
     padding: 1rem;
@@ -30,13 +29,13 @@
     padding: .8rem;
     margin: 0px;
     align-items: flex-end;
-    background-color: #000;
+    background-color: #00ffff;
   }
   #navbarSupportedContent li {
     list-style-type: none;
   }
   #navbarSupportedContent ul li a {
-    color: #8E05C2;
+    color: #000;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.6rem;
@@ -46,14 +45,8 @@
 
 @media (min-width: 991px) {
   .navbar {
-    border-bottom: #000 1px solid;
     .header{
       border-bottom: transparent;
-      .logo {
-        font-size: 25px;
-        color: #000;
-        font-weight: bold;
-      }
     }
     #navbarSupportedContent{
       .wave{
@@ -70,11 +63,9 @@
       list-style-type: none;
     }
     #navbarSupportedContent ul li a {
-      color: #000;
-      font-weight: bold;
-      text-decoration: none;
-      font-size: 20px;
-      padding: 9px 15px;
+      color: #00ffff;
+      font-size: 18px;
+      padding: 5px 15px;
     }
   }
 }
