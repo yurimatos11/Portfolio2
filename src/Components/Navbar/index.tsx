@@ -1,7 +1,7 @@
 import React , {useEffect} from 'react'
 import '../Navbar/styles.scss';
 
-import Logo from '../../assets/img/gitYuri1.svg';
+import Logo from '../../assets/img/gitYuri2.svg';
 import Wave from '../../assets/img/wave1.svg';
 
 const Navbar = () => {
