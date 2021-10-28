@@ -31,37 +31,39 @@ const Home = () => {
     <>
       <div className="homeBody">
         <img className="homeWave" src={Wave} alt="wave" />
-        <div className="content">
-          <h1 className="text">Olá! Me chamo Yuri, este é meu segundo Portfólio, onde de forma simples e pratica mostrarei algumas das tecnologias que conheço!</h1>
-        </div>
-        <div className="card1">
-          <div className="imgContent">
-            <img src={Bootstrap} alt="Bootstrap" />
-            <img src={Brave} alt="Brave" />
-            <img src={Chrome} alt="Chrome" />
-            <img src={Code} alt="VsCode" />
-            <img src={Css} alt="Css" />
-            <img src={Git} alt="Git" />
-            <img src={Github} alt="GitHub" />
-            <img src={Html} alt="Html" />
-            <img src={Js} alt="JavaScript" />
-            <img src={Jquery} alt="jQuery" />
-            <img src={Linux} alt="Linux" />
-            <img src={Materialize} alt="Materialize" />
-            <img src={Next} alt="Nextjs" />
-            <img src={Node} alt="Nodejs" />
-            <img src={Npm} alt="Npm" />
-            <img src={Reacticon} alt="ReactJs" />
-            <img src={Responsive} alt="Responsive" />
-            <img src={Sass} alt="Sass/scss" />
-            <img src={Ts} alt="TypeScript" />
-            <img src={Ubuntu} alt="Ubuntu" />
-            <img src={Whats} alt="WhatsApp" />
-            <img src={Windows} alt="Windows" />
-            <img src={Yarn} alt="Yarn" />
+        <div className="flex">
+          <div className="content">
+            <h1 className="text">Olá! Me chamo Yuri, este é meu segundo Portfólio, onde de forma simples e pratica mostrarei algumas das tecnologias que conheço!</h1>
           </div>
-          
+          <div className="card1">
+            <div className="imgContent">
+              <img src={Bootstrap} alt="Bootstrap" />
+              <img src={Brave} alt="Brave" />
+              <img src={Chrome} alt="Chrome" />
+              <img src={Code} alt="VsCode" />
+              <img src={Css} alt="Css" />
+              <img src={Git} alt="Git" />
+              <img src={Github} alt="GitHub" />
+              <img src={Html} alt="Html" />
+              <img src={Js} alt="JavaScript" />
+              <img src={Jquery} alt="jQuery" />
+              <img src={Linux} alt="Linux" />
+              <img src={Materialize} alt="Materialize" />
+              <img src={Next} alt="Nextjs" />
+              <img src={Node} alt="Nodejs" />
+              <img src={Npm} alt="Npm" />
+              <img src={Reacticon} alt="ReactJs" />
+              <img src={Responsive} alt="Responsive" />
+              <img src={Sass} alt="Sass/scss" />
+              <img src={Ts} alt="TypeScript" />
+              <img src={Ubuntu} alt="Ubuntu" />
+              <img src={Whats} alt="WhatsApp" />
+              <img src={Windows} alt="Windows" />
+              <img src={Yarn} alt="Yarn" />
+            </div>
+          </div>
         </div>
+        
       </div>
     </>
     
