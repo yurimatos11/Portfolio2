@@ -1,0 +1,29 @@
+.footerWave{
+    margin-top: 3rem;
+}
+.footerBody{
+    background-color: #00ffff;
+    padding: 1rem;
+    margin-top: -1rem;
+    .footerContent{
+        margin-top: -.1rem;
+        p{
+            color: #000;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+@media (min-width: 991px) {
+    .footerWave{
+        margin-top: 40px;
+    }
+    .footerBody{
+        padding: 20px;
+        margin-top: -20px;
+        .footerContent{
+            margin-top: -20px;
+        }
+    }
+}
