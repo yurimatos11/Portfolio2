@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
    <img className="footerWave" src={Wave} alt="Wave" />
     <div className="footerBody">
       <div className="footerContent">
-        <p>Portfolio2 V.1 Create by Yuri Matos</p>
+        <p>Portfolio2 Create by Yuri Matos</p>
       </div>  
     </div>
   </>;
